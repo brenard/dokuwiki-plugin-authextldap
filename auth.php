@@ -10,7 +10,7 @@ if(!defined('DOKU_INC')) die();
  * @author    Chris Smith <chris@jalakaic.co.uk>
  * @author    Jan Schumann <js@schumann-it.com>
  */
-class auth_plugin_authldap extends DokuWiki_Auth_Plugin {
+class auth_plugin_authextldap extends DokuWiki_Auth_Plugin {
     /* @var resource $con holds the LDAP connection*/
     protected $con = null;
 

@@ -1,7 +1,6 @@
-base   authldap
-author Andreas Gohr
-email  andi@splitbrain.org
-date   2013-04-19
-name   LDAP Auth Plugin
-desc   Provides user authentication against an LDAP server
-url    http://www.dokuwiki.org/plugin:authldap
+base   authextldap
+author Andreas Gohr (modify by Benjamin Renard)
+email  brenard@easter-eggs.com
+date   2014-03-11
+name   LDAP auth plugin providing support of external auth data
+desc   Provides authentication against am LDAP server and support external auth data
