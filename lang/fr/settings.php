@@ -21,6 +21,7 @@ $lang['bindpw']                = 'Mot de passe de l\'utilisateur ci-dessus.';
 $lang['userscope']             = 'Limiter la portée de recherche d\'utilisateurs';
 $lang['groupscope']            = 'Limiter la portée de recherche de groupes';
 $lang['groupkey']              = 'Affiliation aux groupes à partir de n\'importe quel attribut utilisateur (au lieu des groupes AD standards), p. ex. groupes par département ou numéro de téléphone';
+$lang['external']              = 'Approuver les informations externes pour authentifier l\'utilisateur';
 $lang['debug']                 = 'Afficher des informations de bégogage supplémentaires pour les erreurs';
 $lang['deref_o_0']             = 'LDAP_DEREF_NEVER';
 $lang['deref_o_1']             = 'LDAP_DEREF_SEARCHING';

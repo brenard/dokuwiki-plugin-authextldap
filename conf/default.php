@@ -18,3 +18,4 @@ $conf['userscope']  = 'sub';
 $conf['groupscope'] = 'sub';
 $conf['groupkey']   = 'cn';
 $conf['debug']      = 0;
+$conf['external']   = false;
