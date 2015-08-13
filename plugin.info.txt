@@ -1,6 +1,7 @@
 base   authextldap
 author Andreas Gohr (modify by Benjamin Renard)
 email  brenard@easter-eggs.com
-date   2014-03-11
-name   LDAP auth plugin providing support of external auth data
+date   2015-08-13
+name   Fork of authldap plugin providing support of external auth data
 desc   Provides authentication against am LDAP server and support external auth data
+url    https://github.com/brenard/dokuwiki-plugin-authextldap/
