@@ -396,8 +396,8 @@ class auth_plugin_authextldap extends DokuWiki_Auth_Plugin {
      */
     public function trustExternal($user, $pass, $sticky = false) {
         if(!$this->_openLDAP()) return false;
-        if ($this->getConf('external') && empty($user) && isset($_SERVER['REMOTE_USER'])) {
-            $user = $_SERVER['REMOTE_USER'];
+        if ($this->getConf('external') && (!empty($user) || isset($_SERVER['REMOTE_USER']))) {
+            $user = ($_SERVER['REMOTE_USER']?$_SERVER['REMOTE_USER']:$user);
             $info = $this->getUserData($user);
             if ($info) {
                 global $USERINFO;
